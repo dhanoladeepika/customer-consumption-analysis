@@ -49,15 +49,15 @@ anomaly detection, and KPI reporting — producing clean datasets ready for BI d
 - Exported clean dataset for downstream use
 
 ### 2. KPI Summary
+
 | KPI | Value |
 |-----|-------|
-| Total Revenue | calculated in notebook |
-| Total Orders | calculated in notebook |
-| Unique Customers | calculated in notebook |
-| Avg Order Value | calculated in notebook |
-| Avg Revenue per Customer | calculated in notebook |
-
-> Update the table above with your actual output values from Cell 5
+| Total Revenue | £17,743,429 |
+| Total Orders | 36,969 |
+| Unique Customers | 5,878 |
+| Unique Products | 4,631 |
+| Avg Order Value | £479.95 |
+| Avg Revenue per Customer | £3,018.62 
 
 ### 3. Revenue Trend Analysis
 Analysed revenue across monthly, daily, quarterly, and geographic dimensions 
@@ -105,11 +105,23 @@ data quality issues, or unexpected demand shifts.
 
 ## Key Findings
 
-- **[Fill in once you've reviewed your Cell 5 and Cell 9 outputs]**
-- e.g. Champions segment (X% of customers) generated Y% of total revenue
-- e.g. November 2011 showed the highest anomalous revenue spike — likely seasonal demand
-- e.g. Thursday and Tuesday were the strongest revenue days
+- **High average revenue per customer (£3,018.62)** suggests a predominantly B2B customer 
+  base — individual retail consumers rarely spend at this level, pointing to wholesale 
+  buyers driving the bulk of revenue.
 
+- **22 anomalous trading days detected** out of ~700 total — December 2011 recorded the 
+  single highest revenue spike at £184,367 (z-score: 9.09), over 9 standard deviations 
+  above the daily mean, strongly indicating a large seasonal wholesale order rather than 
+  organic demand. Five of the top 10 anomalous days fall in Nov–Dec, confirming a 
+  consistent Q4 demand pattern.
+
+- **September and December consistently appear in the top anomaly dates across both years** 
+  (Sep 2010, Sep 2011, Dec 2010, Dec 2011) — suggesting predictable seasonal demand cycles 
+  that could be used to inform stock planning and resource allocation.
+
+- **Average order value of £479.95** across 36,969 orders indicates high-value, 
+  low-frequency purchasing behaviour — typical of gift and wholesale retail, 
+  where fewer but larger basket sizes drive overall revenue.
 ---
 
 ## Author
