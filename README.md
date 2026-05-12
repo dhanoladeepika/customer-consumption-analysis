@@ -17,6 +17,20 @@ The workflow covers data cleaning, exploratory analysis, RFM customer segmentati
 anomaly detection, and KPI reporting — producing clean datasets ready for BI dashboarding.
 
 ---
+## Interactive Power BI Dashboard
+
+View the live interactive dashboard here:
+
+🔗 **[Open Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzAyNGQ4NmMtNjNhOC00ZDUzLTg4NmUtNzZjMjI2ZmY5YTQ1IiwidCI6IjM5MjIwMTU5LTFhOGQtNDExMC1iOGI4LWMzODk1MjQzODlhYSJ9)**
+
+The dashboard includes:
+- KPI overview and revenue monitoring
+- Customer consumption behaviour analysis
+- RFM customer segmentation
+- Revenue trend analysis
+- Consumption anomaly detection
+- Geographic sales insights
+---
 
 ## Tools & Technologies
 
