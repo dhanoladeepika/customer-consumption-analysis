@@ -141,5 +141,5 @@ data quality issues, or unexpected demand shifts.
 ## Author
 
 **Deepika Dhanola**  
-BI & Data Analyst | PL-300 & DP-900 Certified  
+BI & Data Analyst | PL-300 & DP-900 Certified
 [LinkedIn](https://www.linkedin.com/in/deepika-dhanola/) · deepikadhanola27@gmail.com
